@@ -3,7 +3,7 @@ class Strings {
   static const welcomeTxt = '''Olá, meu nome é''';
   static const name = '''Alexandre Luiz Tertuliano.'''; // add . at the end
   static const whatIdo =
-      '''Eu amo construir coisas para a internet, como foco no desenvolvimento mobile.'''; // add . at the end
+      '''Eu amo construir coisas para a internet, com foco no desenvolvimento mobile.'''; // add . at the end
   static const introAbout =
       '''Eu sou um analista desenvolvedor especializado em construir (e as vezes planejar) experiências digitais movéis incríveis. Atualmente como Desenvolvedor Mobile, estou focado em construir produtos acessíveis, modernos e extremamente performáticos na ''';
   static const currentOrgName = '''Gold System.'''; // add . at the end
