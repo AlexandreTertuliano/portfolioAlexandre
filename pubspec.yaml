@@ -1,0 +1,42 @@
+name: portfolio
+description: Meu portfolio para compartilhar minha trajetória enquanto desenvolvedor.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  google_fonts:
+  animated_text_kit:
+  flutter_svg:
+  flutter_riverpod:
+  flutter_staggered_grid_view:
+  url_launcher:
+  scroll_to_index:
+  http:
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/svg/
+
+  fonts:
+    - family: sfmono
+      fonts:
+        - asset: fonts/sfmono.otf
+        
