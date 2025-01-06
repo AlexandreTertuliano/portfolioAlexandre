@@ -278,7 +278,7 @@ class _ContactWebState extends ConsumerState<ContactWeb> {
                                             if (value) {
                                               Navigator.pop(context);
                                               AppClass().showSnackBar(
-                                                  'Email aberto com sucesso!',
+                                                  'Email enviado com sucesso!',
                                                   context: context);
                                             } else {
                                               Navigator.pop(context);

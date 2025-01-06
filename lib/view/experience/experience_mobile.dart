@@ -114,6 +114,98 @@ class _ExperienceMobState extends State<ExperienceMob> {
               ),
             ],
           )),
+      ExperienceModel(
+          desig: Strings.expDesig1,
+          compName: Strings.expCompName1,
+          duration: Strings.expDur1,
+          points: Column(
+            children: [
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Row(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(right: 5.0),
+                      child: Icon(
+                        Icons.arrow_right,
+                        color: AppColors().neonColor,
+                        size: 20,
+                      ),
+                    ),
+                    Expanded(
+                        child: Padding(
+                      padding: const EdgeInsets.only(right: 15.0),
+                      child: Text(
+                        Strings.expAbout1,
+                        style: TextStyle(
+                            color: AppColors().textLight,
+                            letterSpacing: 1,
+                            height: 1.5,
+                            fontSize: 13,
+                            fontFamily: 'sfmono'),
+                      ),
+                    )),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Row(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(right: 5.0),
+                      child: Icon(
+                        Icons.arrow_right,
+                        color: AppColors().neonColor,
+                        size: 20,
+                      ),
+                    ),
+                    Expanded(
+                        child: Padding(
+                      padding: const EdgeInsets.only(right: 15.0),
+                      child: Text(
+                        Strings.expAbout1_2,
+                        style: TextStyle(
+                            color: AppColors().textLight,
+                            letterSpacing: 1,
+                            height: 1.5,
+                            fontSize: 13,
+                            fontFamily: 'sfmono'),
+                      ),
+                    )),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Row(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(right: 5.0),
+                      child: Icon(
+                        Icons.arrow_right,
+                        color: AppColors().neonColor,
+                        size: 20,
+                      ),
+                    ),
+                    Expanded(
+                        child: Padding(
+                      padding: const EdgeInsets.only(right: 15.0),
+                      child: Text(
+                        Strings.expAbout1_3,
+                        style: TextStyle(
+                            color: AppColors().textLight,
+                            letterSpacing: 1,
+                            height: 1.5,
+                            fontSize: 13,
+                            fontFamily: 'sfmono'),
+                      ),
+                    )),
+                  ],
+                ),
+              ),
+            ],
+          )),
     ];
 
     return Container(
@@ -135,7 +227,7 @@ class _ExperienceMobState extends State<ExperienceMob> {
                         fontFamily: 'sfmono'),
                     children: <TextSpan>[
                       TextSpan(
-                        text: ''' Where I've Worked''',
+                        text: ''' Onde já trabalhei''',
                         style: GoogleFonts.robotoSlab(
                             color: Colors.white,
                             letterSpacing: 1,
@@ -182,11 +274,12 @@ class _ExperienceMobState extends State<ExperienceMob> {
                                             : Colors.white,
                                         width: 2))),
                             child: Text(
-                              'Netaccess',
+                              'Gold System',
                               style: TextStyle(
                                   color: data == 0
                                       ? AppColors().neonColor
                                       : AppColors().textLight,
+                                  letterSpacing: 1,
                                   height: 1.5,
                                   fontSize: 9,
                                   fontFamily: 'sfmono'),
@@ -210,39 +303,12 @@ class _ExperienceMobState extends State<ExperienceMob> {
                                             : Colors.white,
                                         width: 2))),
                             child: Text(
-                              'Rax-Tech',
+                              'Netsul Informática',
                               style: TextStyle(
                                   color: data == 1
                                       ? AppColors().neonColor
                                       : AppColors().textLight,
-                                  height: 1.5,
-                                  fontSize: 9,
-                                  fontFamily: 'sfmono'),
-                            ),
-                          ),
-                        ),
-                        InkWell(
-                          onTap: () {
-                            ref.read(selectedExpProvider.notifier).state = 2;
-                          },
-                          child: Container(
-                            padding: const EdgeInsets.all(10.0),
-                            decoration: BoxDecoration(
-                                color: data == 2
-                                    ? AppColors().cardColor
-                                    : Colors.transparent,
-                                border: Border(
-                                    left: BorderSide(
-                                        color: data == 2
-                                            ? AppColors().neonColor
-                                            : Colors.white,
-                                        width: 2))),
-                            child: Text(
-                              'Techno Kryon',
-                              style: TextStyle(
-                                  color: data == 2
-                                      ? AppColors().neonColor
-                                      : AppColors().textLight,
+                                  letterSpacing: 1,
                                   height: 1.5,
                                   fontSize: 9,
                                   fontFamily: 'sfmono'),

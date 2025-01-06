@@ -3,14 +3,14 @@ class Strings {
   static const welcomeTxt = '''Olá, meu nome é''';
   static const name = '''Alexandre Luiz Tertuliano.'''; // add . at the end
   static const whatIdo =
-      '''Eu amo construir coisas para a internet, com foco no desenvolvimento mobile.'''; // add . at the end
+      '''Gosto aprender e desenvolver ferramentas que facilitam, e ajudam pessoas a serem mais eficientes, com foco no desenvolvimento mobile.'''; // add . at the end
   static const introAbout =
       '''Eu sou um analista desenvolvedor especializado em construir (e as vezes planejar) experiências digitais movéis incríveis. Atualmente como Desenvolvedor Mobile, estou focado em construir produtos acessíveis, modernos e extremamente performáticos na ''';
   static const currentOrgName = '''Gold System.'''; // add . at the end
 
   /* About screen contents */
   static const aboutPara1 =
-      '''Olá! Eu sou o Alexandre e gosto de criar coisas pra internet. Sou formado em sistemas de informações pela Universidade do Vale do Sapucaí. Meu interesse por desenvolvimento mobile começou lá em 2016, quando eu  tive curiosidade pra saber como coisas incríveis como os apps que eu gostava eram construídos — minha paixão virou profissão.''';
+      '''Olá! Eu sou o Alexandre e gosto trabalhar com a tecnologia. Sou formado em Sistemas de informações pela Universidade do Vale do Sapucaí e Pós Graduado em Desenvolvimento Mobile e Desenvolvimento Back-End pela Universidade Anhanguera.  Meu interesse por desenvolvimento mobile começou lá em 2016, quando eu  tive curiosidade pra saber como coisas incríveis como os apps que eu gostava eram construídos — minha paixão virou profissão.''';
   static const aboutPara2 =
       '''Pra encurtar a história, eu tive o privilégio de trabalhar para boas empresas com perfis distintos entre fábrica de software, voltada pra soluções, grandes corporações, etc. Sempre numa atmosfera de trabalho com aprendizado. Meu foco principal atualmente é construir aplicações acessíveis, inclusivas e experiências digitais focadas no usuário final para a maior variedade de clientes possível.''';
   static const aboutPara3 =

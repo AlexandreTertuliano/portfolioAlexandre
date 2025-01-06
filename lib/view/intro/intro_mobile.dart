@@ -96,11 +96,12 @@ class _IntroMobileState extends State<IntroMobile> {
                     padding: const EdgeInsets.all(10.0),
                     decoration: BoxDecoration(
                         color: Colors.transparent,
-                        borderRadius: const BorderRadius.all(Radius.circular(3.0)),
+                        borderRadius:
+                            const BorderRadius.all(Radius.circular(3.0)),
                         border: Border.all(
                             color: AppColors().neonColor, width: 1.5)),
                     child: Center(
-                      child: Text('Check Out My Work!',
+                      child: Text('Confira meu trabalho!',
                           style: TextStyle(
                               color: AppColors().neonColor,
                               fontSize: 13,

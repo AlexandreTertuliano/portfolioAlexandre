@@ -123,7 +123,7 @@ class _AboutTabState extends State<AboutTab> {
                                       color: AppColors().textLight,
                                       letterSpacing: 1,
                                       height: 1.5,
-                                      fontSize: 17,
+                                      fontSize: 18,
                                     )),
                               ],
                             ),
@@ -135,7 +135,7 @@ class _AboutTabState extends State<AboutTab> {
                                       color: AppColors().textLight,
                                       letterSpacing: 1,
                                       height: 1.5,
-                                      fontSize: 17,
+                                      fontSize: 18,
                                     )),
                               ],
                             ),
@@ -147,7 +147,7 @@ class _AboutTabState extends State<AboutTab> {
                                       color: AppColors().textLight,
                                       letterSpacing: 1,
                                       height: 1.5,
-                                      fontSize: 17,
+                                      fontSize: 18,
                                     )),
                               ],
                             ),
@@ -159,7 +159,103 @@ class _AboutTabState extends State<AboutTab> {
                                       color: AppColors().textLight,
                                       letterSpacing: 1,
                                       height: 1.5,
-                                      fontSize: 17,
+                                      fontSize: 18,
+                                    )),
+                              ],
+                            ),
+                            Row(
+                              children: [
+                                const Icon(Icons.arrow_right),
+                                Text(Strings.tech5,
+                                    style: GoogleFonts.robotoFlex(
+                                      color: AppColors().textLight,
+                                      letterSpacing: 1,
+                                      height: 1.5,
+                                      fontSize: 18,
+                                    )),
+                              ],
+                            ),
+                            Row(
+                              children: [
+                                const Icon(Icons.arrow_right),
+                                Text(Strings.tech6,
+                                    style: GoogleFonts.robotoFlex(
+                                      color: AppColors().textLight,
+                                      letterSpacing: 1,
+                                      height: 1.5,
+                                      fontSize: 18,
+                                    )),
+                              ],
+                            ),
+                            Row(
+                              children: [
+                                const Icon(Icons.arrow_right),
+                                Text(Strings.tech7,
+                                    style: GoogleFonts.robotoFlex(
+                                      color: AppColors().textLight,
+                                      letterSpacing: 1,
+                                      height: 1.5,
+                                      fontSize: 18,
+                                    )),
+                              ],
+                            ),
+                            Row(
+                              children: [
+                                const Icon(Icons.arrow_right),
+                                Text(Strings.tech8,
+                                    style: GoogleFonts.robotoFlex(
+                                      color: AppColors().textLight,
+                                      letterSpacing: 1,
+                                      height: 1.5,
+                                      fontSize: 18,
+                                    )),
+                              ],
+                            ),
+                            Row(
+                              children: [
+                                const Icon(Icons.arrow_right),
+                                Text(Strings.tech9,
+                                    style: GoogleFonts.robotoFlex(
+                                      color: AppColors().textLight,
+                                      letterSpacing: 1,
+                                      height: 1.5,
+                                      fontSize: 18,
+                                    )),
+                              ],
+                            ),
+                            Row(
+                              children: [
+                                const Icon(Icons.arrow_right),
+                                Text(Strings.tech10,
+                                    style: GoogleFonts.robotoFlex(
+                                      color: AppColors().textLight,
+                                      letterSpacing: 1,
+                                      height: 1.5,
+                                      fontSize: 18,
+                                    )),
+                              ],
+                            ),
+                            Row(
+                              children: [
+                                const Icon(Icons.arrow_right),
+                                Text(Strings.tech11,
+                                    style: GoogleFonts.robotoFlex(
+                                      color: AppColors().textLight,
+                                      letterSpacing: 1,
+                                      height: 1.5,
+                                      fontSize: 18,
+                                    )),
+                              ],
+                            ),
+                            Row(
+                              children: [
+                                const Icon(Icons.arrow_right),
+                                Text(Strings.tech12,
+                                    style: GoogleFonts.robotoFlex(
+                                      color: AppColors().textLight,
+                                      letterSpacing: 1,
+                                      height: 1.5,
+                                      fontSize: 18,
                                     )),
                               ],
                             ),

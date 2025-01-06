@@ -59,7 +59,7 @@ class _AboutMobileState extends State<AboutMobile> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Padding(
-                      padding: const EdgeInsets.only(top: 30.0),
+                      padding: const EdgeInsets.only(top: 40.0),
                       child: Text(
                         Strings.aboutPara1,
                         style: GoogleFonts.roboto(
@@ -116,12 +116,12 @@ class _AboutMobileState extends State<AboutMobile> {
                             Row(
                               children: [
                                 const Icon(Icons.arrow_right),
-                                Text(' Flutter',
+                                Text(Strings.tech1,
                                     style: GoogleFonts.robotoFlex(
                                       color: AppColors().textLight,
                                       letterSpacing: 1,
                                       height: 1.5,
-                                      fontSize: 14,
+                                      fontSize: 15,
                                     )),
                               ],
                             ),
@@ -133,7 +133,7 @@ class _AboutMobileState extends State<AboutMobile> {
                                       color: AppColors().textLight,
                                       letterSpacing: 1,
                                       height: 1.5,
-                                      fontSize: 14,
+                                      fontSize: 15,
                                     )),
                               ],
                             ),
@@ -145,7 +145,7 @@ class _AboutMobileState extends State<AboutMobile> {
                                       color: AppColors().textLight,
                                       letterSpacing: 1,
                                       height: 1.5,
-                                      fontSize: 14,
+                                      fontSize: 15,
                                     )),
                               ],
                             ),
@@ -157,7 +157,103 @@ class _AboutMobileState extends State<AboutMobile> {
                                       color: AppColors().textLight,
                                       letterSpacing: 1,
                                       height: 1.5,
-                                      fontSize: 14,
+                                      fontSize: 15,
+                                    )),
+                              ],
+                            ),
+                            Row(
+                              children: [
+                                const Icon(Icons.arrow_right),
+                                Text(Strings.tech5,
+                                    style: GoogleFonts.robotoFlex(
+                                      color: AppColors().textLight,
+                                      letterSpacing: 1,
+                                      height: 1.5,
+                                      fontSize: 15,
+                                    )),
+                              ],
+                            ),
+                            Row(
+                              children: [
+                                const Icon(Icons.arrow_right),
+                                Text(Strings.tech6,
+                                    style: GoogleFonts.robotoFlex(
+                                      color: AppColors().textLight,
+                                      letterSpacing: 1,
+                                      height: 1.5,
+                                      fontSize: 15,
+                                    )),
+                              ],
+                            ),
+                            Row(
+                              children: [
+                                const Icon(Icons.arrow_right),
+                                Text(Strings.tech7,
+                                    style: GoogleFonts.robotoFlex(
+                                      color: AppColors().textLight,
+                                      letterSpacing: 1,
+                                      height: 1.5,
+                                      fontSize: 15,
+                                    )),
+                              ],
+                            ),
+                            Row(
+                              children: [
+                                const Icon(Icons.arrow_right),
+                                Text(Strings.tech8,
+                                    style: GoogleFonts.robotoFlex(
+                                      color: AppColors().textLight,
+                                      letterSpacing: 1,
+                                      height: 1.5,
+                                      fontSize: 15,
+                                    )),
+                              ],
+                            ),
+                            Row(
+                              children: [
+                                const Icon(Icons.arrow_right),
+                                Text(Strings.tech9,
+                                    style: GoogleFonts.robotoFlex(
+                                      color: AppColors().textLight,
+                                      letterSpacing: 1,
+                                      height: 1.5,
+                                      fontSize: 15,
+                                    )),
+                              ],
+                            ),
+                            Row(
+                              children: [
+                                const Icon(Icons.arrow_right),
+                                Text(Strings.tech10,
+                                    style: GoogleFonts.robotoFlex(
+                                      color: AppColors().textLight,
+                                      letterSpacing: 1,
+                                      height: 1.5,
+                                      fontSize: 15,
+                                    )),
+                              ],
+                            ),
+                            Row(
+                              children: [
+                                const Icon(Icons.arrow_right),
+                                Text(Strings.tech11,
+                                    style: GoogleFonts.robotoFlex(
+                                      color: AppColors().textLight,
+                                      letterSpacing: 1,
+                                      height: 1.5,
+                                      fontSize: 15,
+                                    )),
+                              ],
+                            ),
+                            Row(
+                              children: [
+                                const Icon(Icons.arrow_right),
+                                Text(Strings.tech12,
+                                    style: GoogleFonts.robotoFlex(
+                                      color: AppColors().textLight,
+                                      letterSpacing: 1,
+                                      height: 1.5,
+                                      fontSize: 15,
                                     )),
                               ],
                             ),

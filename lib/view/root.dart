@@ -44,9 +44,9 @@ class _RootScreenState extends ConsumerState<RootScreen> {
                     begin: Alignment.bottomCenter,
                     end: Alignment.topCenter,
                     colors: [
-                  Color(0xff112240),
-                  Color(0xff0a192f),
-                  Color(0xff020c1b)
+                  Color(0xff07280d),
+                  Color(0xff004939),
+                  Color(0xff006a6d)
                 ])),
             height: AppClass().getMqHeight(context),
             child: Column(
@@ -64,7 +64,9 @@ class _RootScreenState extends ConsumerState<RootScreen> {
                     ScreenType scrType = AppClass().getScreenType(context);
                     return Row(
                       children: [
-                        scrType == ScreenType.mobile ? const SizedBox() : const LeftPane(),
+                        scrType == ScreenType.mobile
+                            ? const SizedBox()
+                            : const LeftPane(),
                         Expanded(
                             flex: 8,
                             child: ListView(
@@ -97,7 +99,9 @@ class _RootScreenState extends ConsumerState<RootScreen> {
                                     child: const Contact())
                               ],
                             )),
-                        scrType == ScreenType.mobile ? const SizedBox() : const RightPane(),
+                        scrType == ScreenType.mobile
+                            ? const SizedBox()
+                            : const RightPane(),
                       ],
                     );
                   }(),

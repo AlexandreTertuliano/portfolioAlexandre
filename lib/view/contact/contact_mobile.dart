@@ -36,14 +36,14 @@ class _ContactMobileState extends ConsumerState<ContactMobile> {
                           '''04.''',
                           style: TextStyle(
                               color: AppColors().neonColor,
-                              fontSize: 12,
+                              fontSize: 15,
                               fontFamily: 'sfmono'),
                         ),
                         Text(
-                          ''' What's next?''',
+                          ''' O que vem depois?''',
                           style: TextStyle(
                               color: AppColors().neonColor,
-                              fontSize: 14,
+                              fontSize: 18,
                               fontFamily: 'sfmono'),
                         ),
                       ],
@@ -51,7 +51,7 @@ class _ContactMobileState extends ConsumerState<ContactMobile> {
                     Padding(
                       padding: const EdgeInsets.only(top: 8.0),
                       child: Text(
-                        'Get In Touch',
+                        'Entre Em Contato!',
                         style: GoogleFonts.robotoSlab(
                           color: AppColors().textColor,
                           fontWeight: FontWeight.bold,
@@ -92,10 +92,10 @@ class _ContactMobileState extends ConsumerState<ContactMobile> {
                               border: Border.all(
                                   color: AppColors().neonColor, width: 1.5)),
                           child: Center(
-                            child: Text('Say Hello!',
+                            child: Text('Diga Olá!',
                                 style: TextStyle(
                                     color: AppColors().neonColor,
-                                    fontSize: 10,
+                                    fontSize: 13,
                                     letterSpacing: 1,
                                     fontWeight: FontWeight.bold,
                                     fontFamily: 'sfmono')),
@@ -111,7 +111,7 @@ class _ContactMobileState extends ConsumerState<ContactMobile> {
           Column(
             children: [
               Text(
-                '''Built & Developed by Jeevanandham''',
+                '''alexandretertuliano2010@hotmail.com''',
                 style: TextStyle(
                     color: AppColors().textColor,
                     fontSize: 12,
@@ -120,7 +120,7 @@ class _ContactMobileState extends ConsumerState<ContactMobile> {
               Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: Text(
-                  '''ref - Britney C''',
+                  '''+55 (35) 9 9908-7067''',
                   style: TextStyle(
                       color: AppColors().neonColor,
                       fontSize: 12,
@@ -151,7 +151,10 @@ class _ContactMobileState extends ConsumerState<ContactMobile> {
               clipBehavior: Clip.antiAliasWithSaveLayer,
               title: Row(
                 children: [
-                  const Expanded(flex: 9, child: Text('Contact Me!')),
+                  const Expanded(
+                    flex: 9,
+                    child: Text('Me manda um E-mail!'),
+                  ),
                   IconButton(
                       onPressed: () => Navigator.pop(context),
                       icon: Icon(Icons.close, color: AppColors().textColor))
@@ -175,12 +178,12 @@ class _ContactMobileState extends ConsumerState<ContactMobile> {
                               controller: nameController,
                               validator: (value) {
                                 if (value == null || value.isEmpty) {
-                                  return 'Let me know your name (or just enter anonymous)';
+                                  return 'Me deixe saber seu nome (ou apenas me envie de forma anônima)';
                                 }
                                 return null;
                               },
                               decoration: InputDecoration(
-                                hintText: 'Name*',
+                                hintText: 'Nome*',
                                 errorStyle:
                                     TextStyle(color: AppColors().neonColor),
                                 errorBorder: OutlineInputBorder(
@@ -202,7 +205,7 @@ class _ContactMobileState extends ConsumerState<ContactMobile> {
                               child: TextField(
                                 controller: contactInfoController,
                                 decoration: const InputDecoration(
-                                  hintText: 'Contact Info (Optional)',
+                                  hintText: 'Assunto',
                                   enabledBorder: OutlineInputBorder(
                                       borderSide:
                                           BorderSide(color: Colors.white)),
@@ -222,12 +225,12 @@ class _ContactMobileState extends ConsumerState<ContactMobile> {
                                 maxLines: 8,
                                 validator: (value) {
                                   if (value == null || value.isEmpty) {
-                                    return 'Seriously? you want to send a blank message to me :(';
+                                    return 'Sério? Parece que você quer me mandar um e-mail vazio :(';
                                   }
                                   return null;
                                 },
                                 decoration: InputDecoration(
-                                  hintText: 'Message*',
+                                  hintText: 'Texto*',
                                   errorStyle:
                                       TextStyle(color: AppColors().neonColor),
                                   errorBorder: OutlineInputBorder(
@@ -267,12 +270,12 @@ class _ContactMobileState extends ConsumerState<ContactMobile> {
                                             if (value) {
                                               Navigator.pop(context);
                                               AppClass().showSnackBar(
-                                                  'Message sent successfully',
+                                                  'Email enviado com sucesso!',
                                                   context: context);
                                             } else {
                                               Navigator.pop(context);
                                               AppClass().showSnackBar(
-                                                  'Failed to send message, please try again later.',
+                                                  'Falha ao abrir email. Tente novamente mais tarde.',
                                                   context: context);
                                             }
                                             ref
@@ -281,7 +284,7 @@ class _ContactMobileState extends ConsumerState<ContactMobile> {
                                           }).onError((error, stackTrace) {
                                             Navigator.pop(context);
                                             AppClass().showSnackBar(
-                                                'Error Occurred',
+                                                'Ocorreu um erro',
                                                 context: context);
                                           });
                                         }
@@ -301,7 +304,7 @@ class _ContactMobileState extends ConsumerState<ContactMobile> {
                                                 color: AppColors().neonColor,
                                                 width: 1.5)),
                                         child: Center(
-                                          child: Text('Send',
+                                          child: Text('Enviar',
                                               style: TextStyle(
                                                   color: AppColors().neonColor,
                                                   fontSize: 13,

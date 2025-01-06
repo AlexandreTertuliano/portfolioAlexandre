@@ -29,7 +29,7 @@ class _WorkWebState extends ConsumerState<WorkTab> {
                   fontFamily: 'sfmono'),
               children: <TextSpan>[
                 TextSpan(
-                  text: ' My Noteworthy Projects',
+                  text: ' Meus projetos dignos de nota',
                   style: GoogleFonts.roboto(
                       color: AppColors().textColor,
                       letterSpacing: 1,
@@ -41,14 +41,14 @@ class _WorkWebState extends ConsumerState<WorkTab> {
         Padding(
           padding: const EdgeInsets.only(top: 8.0),
           child: Text(
-            'view the archives',
+            'a maioria está em repositórios privados, então aguardem para eu poder compartilhar alguns ( ._.)',
             style: TextStyle(
                 color: AppColors().neonColor,
                 fontSize: 12,
                 fontFamily: 'sfmono'),
           ),
         ),
-        Container(
+        /* Container(
           padding: const EdgeInsets.only(top: 30.0, bottom: 50.0),
           child: StaggeredGrid.count(
             crossAxisCount: 2,
@@ -77,7 +77,7 @@ class _WorkWebState extends ConsumerState<WorkTab> {
               ),
             ],
           ),
-        ),
+        ),*/
       ],
     );
   }
@@ -87,39 +87,35 @@ class _WorkWebState extends ConsumerState<WorkTab> {
       onTap: () async {
         switch (index) {
           case 0:
-           // await launchUrl(Uri.parse(AppClass.gitSafeC19));
+            // await launchUrl(Uri.parse(AppClass.gitSafeC19));
             break;
 
           case 1:
-           // AppClass().alertDialog(context, 'Not Found', 'Sorry the project you requested not found in the repository');
+            // AppClass().alertDialog(context, 'Not Found', 'Sorry the project you requested not found in the repository');
             break;
 
           case 2:
-           // await launchUrl(Uri.parse(AppClass.gitWtIot));
+            // await launchUrl(Uri.parse(AppClass.gitWtIot));
             break;
 
           case 3:
-           // await launchUrl(Uri.parse(AppClass.gitAutoStabilizer));
+            // await launchUrl(Uri.parse(AppClass.gitAutoStabilizer));
             break;
 
           case 4:
-           // await launchUrl(Uri.parse(AppClass.gitPAT));
+            // await launchUrl(Uri.parse(AppClass.gitPAT));
             break;
 
           case 5:
-           // AppClass().alertDialog(context, 'Not Found', 'Sorry the project you requested not found in the repository');
+            // AppClass().alertDialog(context, 'Not Found', 'Sorry the project you requested not found in the repository');
             break;
         }
       },
       onHover: (isHover) {
         if (isHover) {
-          ref
-              .read(hoverProvider.notifier)
-              .state = "$index";
+          ref.read(hoverProvider.notifier).state = "$index";
         } else {
-          ref
-              .read(hoverProvider.notifier)
-              .state = "";
+          ref.read(hoverProvider.notifier).state = "";
         }
       },
       child: Consumer(builder: (context, ref, child) {
@@ -128,7 +124,8 @@ class _WorkWebState extends ConsumerState<WorkTab> {
         return Container(
           margin: EdgeInsets.all(isHovered ? 8.0 : 0.0),
           child: Tooltip(
-            message: "${AppClass().projectList[index].projectTitle}\n\n${AppClass().projectList[index].projectContent}",
+            message:
+                "${AppClass().projectList[index].projectTitle}\n\n${AppClass().projectList[index].projectContent}",
             padding: const EdgeInsets.all(20),
             margin: EdgeInsets.all(AppClass().getMqWidth(context) * 0.1),
             waitDuration: const Duration(seconds: 3),
@@ -160,7 +157,8 @@ class _WorkWebState extends ConsumerState<WorkTab> {
                           'assets/svg/externalLink.svg',
                           width: 22,
                           height: 22,
-                          color: isHovered ? AppColors().neonColor : Colors.white,
+                          color:
+                              isHovered ? AppColors().neonColor : Colors.white,
                         ),
                       ],
                     ),
@@ -169,7 +167,10 @@ class _WorkWebState extends ConsumerState<WorkTab> {
                       child: Row(
                         children: [
                           Text(
-                            AppClass().projectList[index].projectTitle.toString(),
+                            AppClass()
+                                .projectList[index]
+                                .projectTitle
+                                .toString(),
                             textAlign: TextAlign.left,
                             style: GoogleFonts.robotoSlab(
                                 color: isHovered
@@ -186,7 +187,10 @@ class _WorkWebState extends ConsumerState<WorkTab> {
                       child: Padding(
                         padding: const EdgeInsets.only(top: 8.0, bottom: 8.0),
                         child: Text(
-                          AppClass().projectList[index].projectContent.toString(),
+                          AppClass()
+                              .projectList[index]
+                              .projectContent
+                              .toString(),
                           style: GoogleFonts.roboto(
                             color: AppColors().textLight,
                             letterSpacing: 1,

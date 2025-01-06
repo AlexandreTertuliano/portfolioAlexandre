@@ -35,7 +35,7 @@ class _IntroTabState extends State<IntroTab> {
                   Strings.welcomeTxt,
                   style: TextStyle(
                       color: AppColors().neonColor,
-                      fontSize: 16,
+                      fontSize: 15,
                       fontFamily: 'sfmono'),
                 ),
               ),
@@ -47,7 +47,7 @@ class _IntroTabState extends State<IntroTab> {
                     color: AppColors().textColor,
                     fontWeight: FontWeight.bold,
                     letterSpacing: 3,
-                    fontSize: 45,
+                    fontSize: 40,
                   ),
                 ),
               ),
@@ -62,7 +62,7 @@ class _IntroTabState extends State<IntroTab> {
                       color: AppColors().textLight,
                       fontWeight: FontWeight.bold,
                       letterSpacing: 3,
-                      fontSize: 45,
+                      fontSize: 38,
                     ),
                   ),
                 ),
@@ -105,11 +105,12 @@ class _IntroTabState extends State<IntroTab> {
                     width: AppClass().getMqWidth(context) * 0.25,
                     decoration: BoxDecoration(
                         color: Colors.transparent,
-                        borderRadius: const BorderRadius.all(Radius.circular(3.0)),
+                        borderRadius:
+                            const BorderRadius.all(Radius.circular(3.0)),
                         border: Border.all(
                             color: AppColors().neonColor, width: 1.5)),
                     child: Center(
-                      child: Text('Check Out My Work!',
+                      child: Text('Confira meu trabalho!',
                           style: TextStyle(
                               color: AppColors().neonColor,
                               fontSize: 13,
