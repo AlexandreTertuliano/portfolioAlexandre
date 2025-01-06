@@ -13,7 +13,7 @@ class AppClass {
 
   /* URL */
   static const resumeDownloadURL =
-      '''https://drive.google.com/file/d/1F8THjDvZdnMkucrXva1L7um7U3CtQ-lM/view?usp=sharing''';
+      '''https://drive.google.com/file/d/1XwVWMSbh5MWwr6wn__RibAvynAoPvFq0/view?usp=sharing''';
 
   static const gitSafeC19 = '''https://github.com/jeeva-HBK/SafeC19''';
 
